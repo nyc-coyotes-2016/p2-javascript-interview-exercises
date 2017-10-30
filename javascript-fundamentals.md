@@ -59,7 +59,7 @@
     this.id = attribute.id || null
     this.name = attribute.name || ''
     this.gender = attribute.gender || ''
-    this.jsLevel = attribute.jsLeve || 0
+    this.jsLevel = attribute.jsLevel || 0
   }
 
   User.prototype.jsLevelUp = function() {
